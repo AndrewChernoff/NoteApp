@@ -19,8 +19,8 @@ const Main = ({mainNote, updateNote}) => {
         </div>
 
         <div className="app-main-note-preview">
-        <h1 className="preview-title">TITLE</h1>
-        <div className="markdown-preview">note preview</div>
+        <h1 className="preview-title">{mainNote.title}</h1>
+        <div className="markdown-preview">{mainNote.text}</div>
         </div>
 
     </div>
